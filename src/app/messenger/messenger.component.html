@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="navy col-lg-6">
+            <h1>Start Call</h1>
+            <form class="form-inline">
+                <div class="form-group mb-2">
+                    <button class="button" (click)="openRoom()">Open Room</button>
+                </div>
+                <br>
+                <div class="form-group mx-sm-3 mb-2">
+                    <button class="button button-outline" (click)="joinRoom()">Join Room</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <!--<app-video></app-video>-->
+            <app-chat-threads></app-chat-threads>
+            <app-chat-window></app-chat-window>
+        </div>
+    </div>
+</div>

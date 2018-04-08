@@ -1,6 +1,4 @@
 import {Component} from '@angular/core';
-// import {RtcService} from "../services/rtc.service";
-// declare const RTCMultiConnection: any;
 
 @Component({
     selector: 'app-signin',

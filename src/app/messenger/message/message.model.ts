@@ -12,6 +12,7 @@ export class Message {
     author: User;
     text: string;
     thread: Thread;
+    sender: string;
 
     constructor(obj?: any) {
         this.id = obj && obj.id || uuid();
@@ -20,5 +21,6 @@ export class Message {
         this.author = obj && obj.author || null;
         this.text = obj && obj.text || null;
         this.thread = obj && obj.thread || null;
+        this.sender = obj && obj.sender || null;
     }
 }

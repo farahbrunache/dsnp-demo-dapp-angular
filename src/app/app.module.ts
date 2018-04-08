@@ -11,7 +11,6 @@ import {FooterComponent} from './footer/footer.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 
 import {MessengerComponent} from './messenger/messenger.component';
-import {VideoComponent} from './messenger/video/video.component';
 import {ChatMessageComponent} from './messenger/chat-message/chat-message.component';
 import {ChatThreadComponent} from './messenger/chat-thread/chat-thread.component';
 import {ChatThreadsComponent} from './messenger/chat-threads/chat-threads.component';
@@ -32,7 +31,6 @@ import {RtcService} from './services/rtc.service';
         FooterComponent,
         NavComponent,
         HomeComponent,
-        VideoComponent,
         ChatMessageComponent,
         ChatThreadComponent,
         ChatThreadsComponent,

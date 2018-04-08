@@ -1,6 +1,6 @@
 {
-  "name": "FMP",
-  "version": "0.0.0",
+  "name": "DSNP",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

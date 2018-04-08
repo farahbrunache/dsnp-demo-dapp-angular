@@ -1,5 +1,4 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
-import {Observable} from 'rxjs';
 import {ThreadsService} from '../thread/threads.service';
 import {Thread} from '../thread/thread.model';
 

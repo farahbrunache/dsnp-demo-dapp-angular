@@ -1,14 +1,15 @@
 <br>
 <div class="container">
     <div class="row">
-        <video id="localVideo" autoplay muted style="width:40%;"></video>
-        <video id="remoteVideo" autoplay style="width:40%;"></video>
         <div class="col-lg-4">
-            <form class="form-inline">
-                <div class="form-group mx-sm-3 mb-2">
-                    <button class="button button-outline" (click)="start(true)">Join Room</button>
-                </div>
-            </form>
+            <!--<img src="../assets/images/dnsp-image-logo.png" width="250px" height="250px">-->
+            <video id="localVideo" autoplay muted style="width:40%;"></video>
+        </div>
+        <div class="col-lg-4">
+            <video id="remoteVideo" autoplay style="width:70%;"></video>
+        </div>
+        <div class="col-lg-4">
+            <button class="button button-outline" (click)="start(true)">Join Room</button>
         </div>
         <!--<div class="col-lg-4">-->
         <!--<app-chat-threads></app-chat-threads>-->

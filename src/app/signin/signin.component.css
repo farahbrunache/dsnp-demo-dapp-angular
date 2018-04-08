@@ -18,6 +18,7 @@
     background: #fff;
     overflow: hidden;
 }
+
 .signIn-card * {
     z-index: 1;
 }

@@ -20,8 +20,6 @@ import {MessagesService} from "./messenger/message/messages.service";
 import {ThreadsService} from "./messenger/thread/threads.service";
 import {UsersService} from "./messenger/user/users.service";
 
-import {RtcService} from './services/rtc.service';
-
 @NgModule({
     declarations: [
         AppComponent,
@@ -43,7 +41,6 @@ import {RtcService} from './services/rtc.service';
         FormsModule
     ],
     providers: [
-        RtcService,
         MessagesService,
         ThreadsService,
         UsersService

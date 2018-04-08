@@ -1,5 +1,4 @@
 import {Component, AfterViewInit} from '@angular/core';
-import {RtcService} from "../services/rtc.service";
 
 @Component({
     selector: 'app-messenger',

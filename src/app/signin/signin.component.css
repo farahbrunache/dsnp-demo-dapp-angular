@@ -17,6 +17,7 @@
     border-radius: 8px;
     background: #fff;
     overflow: hidden;
+    margin-top: -20%;
 }
 
 .signIn-card * {

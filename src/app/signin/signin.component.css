@@ -1,33 +1,65 @@
-.background {
-    width: 100%;
-    height: 988px;
-    background-image: linear-gradient(180deg, #678aff 0%, #7726c5 100%), linear-gradient(248deg, rgba(48, 134, 204, 0.5) 0%, rgba(85, 16, 103, 0.5) 54%, rgba(63, 158, 154, 0.5) 100%), linear-gradient(-57deg, rgba(255, 12, 77, 0.25) 0%, rgba(57, 51, 153, 0.25) 100%);
-    opacity: 0.55;
+.body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #B94AB7, #E77097);
+    overflow: hidden;
 }
 
-.signin-block {
-    width: 576px;
-    height: 500px;
-    margin-top: 9%;
+.signIn-card {
+    position: relative;
+    display: flex;
     margin-left: 30%;
-    margin-right: 30%;
-    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.07);
-    border-radius: 6px;
-    background-color: #ffffff;
+    flex-direction: column;
+    width: 40vw;
+    min-height: 40vh;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+.signIn-card * {
+    z-index: 1;
 }
 
-.callsign-field {
-    width: 350px;
-    height: 70px;
-    margin-left: 20%;
-    background-color: white;
-    border: solid #9b4dca;
-    float: left;
+.signIn-card:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 175%;
+    border-radius: 50%;
+    transform: translate(-50%, -25%);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+    background: #F6F7FC;
 }
 
-.start-call {
-    width: 355px;
-    height: 67px;
-    margin-top: 30%;
-    margin-left: 20%;
+.signIn-card .login-container {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.signIn-card .login-container label {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #E1E1EA;
+}
+
+.signIn-card .login-container input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 20px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #A3AABA;
+}
+
+.signIn-card .login-container button {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
 }

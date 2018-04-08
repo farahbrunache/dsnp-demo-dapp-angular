@@ -17,10 +17,11 @@
 }
 
 .callsign-field {
-    width: 400px;
+    width: 350px;
     height: 70px;
+    margin-left: 20%;
     background-color: white;
-    border: 2px solid #9b4dca;
+    border: solid #9b4dca;
     float: left;
 }
 

@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="navy col-lg-6">
+        <div class="col-12 col-sm-6 col-md-8">
             <h1>Start Call</h1>
             <form class="form-inline">
                 <div class="form-group mb-2">
@@ -11,10 +11,11 @@
                     <button class="button button-outline" (click)="joinRoom()">Join Room</button>
                 </div>
             </form>
-        </div>
-        <div class="col-lg-6">
             <!--<app-video></app-video>-->
+        </div>
+        <div class="col-6 col-md-4">
             <app-chat-threads></app-chat-threads>
+            <br>
             <app-chat-window></app-chat-window>
         </div>
     </div>

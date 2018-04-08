@@ -30,7 +30,7 @@ export class MessengerComponent implements AfterViewInit {
         this.localVideo = document.getElementById('localVideo');
         this.remoteVideo = document.getElementById('remoteVideo');
 
-        this.serverConnection = new WebSocket('ws://' + window.location.hostname + ':12034');
+        this.serverConnection = new WebSocket('ws://192.241.198.125:12034');
         this.serverConnection.onmessage = this.gotMessageFromServer.bind(this);
 
         const constraints = {

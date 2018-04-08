@@ -59,6 +59,7 @@ export class MessengerComponent implements AfterViewInit {
     getUserMediaSuccess(stream) {
         this.localStream = stream;
         this.localVideo.srcObject = stream;
+        this.localVideo.muted = true;
     }
 
 
